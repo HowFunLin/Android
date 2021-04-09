@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PhoneInfo</string>
+    <string name="menu_settings">设置</string>
+    <string name="hello_world">你好，世界!</string>
+    <string name="_cloud">男生</string>
+    <string name="_bluetooth">摩丝</string>
+    <string name="_gesture">蓝色</string>
+    <string name="_gps">背影</string>
+    <string name="_system_info">风景</string>
+    <string name="_internet">少女心</string>
+    <string name="_language">女生</string>
+    <string name="_set_notifycation">情侣</string>
+</resources>

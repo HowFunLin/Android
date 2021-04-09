@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/cz_head"
+        android:layout_marginStart="20dp"
+        android:contentDescription="@string/head" />
+
+    <TextView
+        android:id="@+id/tv_nickName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_head"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@id/iv_head"
+        android:text="@string/nickname"
+        android:textSize="18sp"
+        android:layout_marginStart="21dp"
+        android:layout_toEndOf="@id/iv_head" />
+
+    <TextView
+        android:id="@+id/tv_numberShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/iv_head"
+        android:layout_alignLeft="@id/tv_nickName"
+        android:text="@string/number"
+        android:textSize="18sp"
+        android:layout_alignStart="@id/tv_nickName" />
+
+    <TextView
+        android:id="@+id/tv_hobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_head"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/hobby"
+        android:textSize="24sp"
+        android:layout_marginStart="21dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_hobby"
+        android:layout_alignLeft="@id/tv_hobby"
+        android:layout_marginTop="16dp"
+        android:text="@string/gender"
+        android:textSize="24sp"
+        android:layout_alignStart="@id/tv_hobby" />
+
+    <TextView
+        android:id="@+id/tv_introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_gender"
+        android:layout_alignLeft="@id/tv_gender"
+        android:layout_marginTop="16dp"
+        android:text="@string/introduction"
+        android:textSize="24sp"
+        android:layout_alignStart="@id/tv_gender" />
+</RelativeLayout>

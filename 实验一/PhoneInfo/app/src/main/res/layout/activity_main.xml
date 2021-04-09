@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        style="@style/h_wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            style="@style/tv_style"
+            android:layout_marginLeft="10dp"
+            android:drawableTop="@drawable/man"
+            android:text="@string/_cloud" />
+
+        <TextView
+            style="@style/tv_style"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:drawableTop="@drawable/momo"
+            android:text="@string/_bluetooth" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/h_wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            style="@style/tv_style"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:drawableTop="@drawable/blue"
+            android:text="@string/_gesture" />
+
+        <TextView
+            style="@style/tv_style"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:drawableTop="@drawable/back"
+            android:text="@string/_gps" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/h_wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            style="@style/tv_style"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:drawableTop="@drawable/scenery"
+            android:text="@string/_system_info" />
+
+        <TextView
+            style="@style/tv_style"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:drawableTop="@drawable/girl"
+            android:text="@string/_internet" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/h_wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            style="@style/tv_style"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:drawableTop="@drawable/know"
+            android:text="@string/_language" />
+
+        <TextView
+            style="@style/tv_style"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:drawableTop="@drawable/happiness"
+            android:text="@string/_set_notifycation" />
+    </RelativeLayout>
+
+</LinearLayout>

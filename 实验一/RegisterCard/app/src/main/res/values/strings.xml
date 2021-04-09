@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RegisterCard</string>
+    <string name="nickname">昵称:</string>
+    <string name="number">手机:</string>
+    <string name="hobby">爱好 ：约会</string>
+    <string name="gender">性别 ：暂定</string>
+    <string name="introduction">自我介绍：</string>
+    <string name="head">TODO</string>
+    <string name="register">注册新用户</string>
+    <string name="tel">手机号码:</string>
+</resources>
