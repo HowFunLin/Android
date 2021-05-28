@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BackgroundService</string>
+    <string name="num1">Num1</string>
+    <string name="num2">Num2</string>
+    <string name="maxnum">MaxNum</string>
+    <string name="in">进程内服务</string>
+    <string name="between">跨进程服务</string>
+</resources>
